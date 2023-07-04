@@ -3,20 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    color: inherit;
+    text-decoration: none;
+}
 .container{
-    border: 2px dashed black;
+    border: 2px dashed transparent;
     width: auto;
-    height: 2100px;
+    height: 2285px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
 }
 .navbar{
-    border: 2px solid red;
+    border: 2px solid transparent;
     width: auto;
     height: 40px;
     display:flex;
     
 }
 .box {
-    border: 2px dashed purple;
+    border: 2px dashed transparent;
     width:160px;
     height: 40px;
     margin-left: 60px;
@@ -25,27 +32,82 @@
     display: flex;
 }
 .box-1 {
-    border: 2px dashed yellowgreen;
+    border: 2px dashed transparent;
     width: 800px;
     margin-left: 250px;
     padding: 6px;
     display: flex;
     justify-content: space-around;
-}    
+} 
+.grey-text {
+    color: grey;
+}
+.button-1 {
+    border:1px solid blue;
+    background-color: white;
+    border-radius:5px;
+    color: blue;
+    padding: 4px 18px;
+}
+.button-2 {
+    border: 1px solid transparent;
+    background-color: blue;
+    border-radius:5px;
+    color: white;
+    padding: 4px 18px;
+} 
+.grey-text {
+    color: grey;
+}
+
+.button-3 {
+    border:1px solid transparent;
+    background-color: blue;
+    border-radius:5px;
+    color: white;
+    padding: 8px 18px;
+}
+.button-4{
+    background-color: transparent;
+    border-radius:5px;
+    color: blue;
+    padding: 8px 18px;
+}  
+.sign-in{
+    font-size: 24px;
+    color: grey;
+}
+.mr {
+    margin-right: 14px;
+
+} 
 .box-2{
-    border: 2px dashed blue;
+    border: 2px dashed transparent;
     width: 300px;
     margin-left: 100px;
     display: flex;
     justify-content: space-around;
 }
 .container-2 {
-    border: 2px dashed orange;
+    border: 2px dashed transparent;
     width: auto;
-    height: 340px;
+    height: 400px;
+    
 }
+.box-1a {
+    border: 2px solid transparent;
+    margin:20px 800px 0px 0px;
+    padding-left: 80px;
+} 
+.box-1b{
+    border:1px dashed transparent;
+    margin: -367px 0px 0px 693px;
+    padding: 30px;
+    padding-left: 450px;
+    height: 400px;
+} 
 .container-3 {
-    border: 2px dashed green;
+    border: 2px dashed transparent;
     width: auto;
     height: 20px;
     padding: 7px;
@@ -56,54 +118,134 @@
     margin-right: 350px;
 }
 .container-4 {
-    border: 2px solid black;
+    border: 2px solid transparent;
     width: auto;
-    height: 350px;
+    height: 240px;
 }
 .box-2b { 
-    border: 2px solid sienna;
+    border: 2px solid transparent;
     width: auto;
-    height: 300px;
+    height: 200px;
     margin: 22px 450px 22px 450px;
     padding-top: 20px;
     text-align: center;
 }
-.box-2c {
-    border: 2px solid lightslategray;
-    width: auto;
-    height: 170px;
-    margin: 10px 175px;
-} 
 .container-5 {
-    border: 2px solid blue;
+    border: 2px solid transparent;
     width: auto;
-    height: 560px;
+    height: 525px;
+}
+h3 {
+    color: white;
 }
 .box-2d {
-    border: 2px solid greenyellow;
-    border-radius: 25px;
+    border: .5px solid transparent;
+    border-radius: 0px;
     width: auto;
-    height: 450px;
-    margin: 40px 450px 22px 450px;
+    height:450px;
+    margin: 33px 195px 22px 195px;
     padding-top: 20px;
     text-align: center;
+}
+.box-2e {
+    border: .5px solid black;
+    border-radius: 25px 0px 0px 25px;
+    width:auto;
+    height: 450px;
+    margin-top: -22px;
+    margin-right: 655px; 
+    padding-top:55px;
+
+}
+.box-2e1 {
+    border: .5px solid transparent;
+    border-radius: 0px 25px 25px 0px;
+    background-color: blue;
+    width: 655px;
+    height: 450px;
+    margin-top: -393px;
+    margin-left: 444px;
+    padding: 85px;
+    color: white;
+
 }
 .container-6 {
-    border: 2px solid fuchsia;
+    border: 2px solid transparent;
     width: auto;
-    height: 560px;
+    height: 201px;
 }
-.box-2f { 
-    border: 2px solid greenyellow;
-    border-radius: 25px;
+.box-2f {
+    border: 2px solid transparent;
+    width: auto;
+    height: 200px;
+    margin: 0px 450px 0px 450px;
+    padding:20px;
+    text-align: center;
+}
+.container-7 {
+    border: 2px solid transparent;
+    width: auto;
+    height: 558px;
+}
+.box-2g { 
+    border: .5px solid transparent;
+    border-radius: 0px;
     width: auto;
     height: 450px;
-    margin: 40px 450px 22px 450px;
+    margin: 40px 195px 22px 195px;
     padding-top: 20px;
     text-align: center;
 }
-.footer-1 {
-    border: 2px dashed rgb(165, 105, 105);
-    width: auto;
-    height: 233px;
+.box-2h {
+    border: .5px solid transparent;
+    border-radius: 25px 0px 0px 25px;
+    width:440px;
+    height: 450px;
+    margin-top: -22px;
+    margin-right: 450px;
+    padding-top:40px;
+
 }
+.box-2i {
+    border: .5px solid transparent;
+    border-radius: 0px 25px 25px 0px;
+    background-color: blue;
+    width: 655px;
+    height: 450px;
+    margin-top: -398px;
+    margin-left: 438px;
+    padding: 65px;
+    color: white;
+}
+.container-8 {
+    border: 1px dashed transparent;
+    background-color: blue;
+    width: auto;
+    height: 300px;
+    margin-top:65px;
+}
+.button-5{
+    border:1px solid green;
+    background-color: green;
+    border-radius:5px;
+    color: white;
+    margin-right: 50px;
+    padding: 8px 42px;
+}
+.button-6 {
+    border:1px solid white;
+    background-color: white;
+    border-radius:5px;
+    color: blue;
+    padding: 8px 24px;
+}
+
+.footer-1 {
+    border: 2px dashed transparent;
+    width: auto;
+    height: 300px;
+    margin-top: 0px;
+    text-align: center;
+    color:white;
+}
+

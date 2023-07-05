@@ -96,14 +96,14 @@ a{
 }
 .box-1a {
     border: 2px solid transparent;
-    margin:20px 800px 0px 0px;
+    margin:20px 800px 0px 115px;
     padding-left: 80px;
 } 
 .box-1b{
     border:1px dashed transparent;
     margin: -367px 0px 0px 693px;
     padding: 30px;
-    padding-left: 450px;
+    padding-left: 317px;
     height: 400px;
 } 
 .container-3 {
@@ -113,6 +113,7 @@ a{
     padding: 7px;
 }
 .psep {
+    
     width: auto;
     margin-left: 350px;
     margin-right: 350px;
